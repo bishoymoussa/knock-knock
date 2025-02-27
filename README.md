@@ -2,7 +2,26 @@
 
 An innovative optimization algorithm inspired by bat echolocation, implemented for solving complex optimization problems. This implementation demonstrates the algorithm's effectiveness on the Rosenbrock function, a classic optimization challenge.
 
-![Optimization Path](optimization_path.gif)
+## 🎬 Optimization Visualizations
+
+### Dynamic Optimization Path
+![Optimization Path Animation](optimization_path.gif)
+
+### Detailed 2D Trajectory
+![2D Optimization Path](optimization_path_2d.png)
+*Detailed view of the optimization trajectory showing the path taken from start to the global minimum*
+
+### Complete Optimization History
+![Optimization History](optimization_history.png)
+*Comprehensive view of the optimization process including loss and gradient norm evolution*
+
+### Loss Convergence
+![Loss Curve](loss_curve.png)
+*Loss value evolution throughout the optimization process (log scale)*
+
+### Final Path Overview
+![Final Optimization Path](optimization_path.png)
+*Final overview of the complete optimization trajectory on the Rosenbrock function contour*
 
 ## 🎯 Algorithm Overview
 
@@ -21,11 +40,6 @@ The Echo Backpropagation optimizer uses a nature-inspired approach that mimics h
 | Final Loss | `0.002097` |
 | Distance to Optimum | `0.100116` |
 | Total Iterations | 99 |
-
-### Optimization Progress
-![Loss Curve](loss_curve.png)
-
-The algorithm demonstrates strong convergence properties, getting very close to the global minimum of the Rosenbrock function at `[1.0, 1.0]`.
 
 ## 🔍 Key Features
 
@@ -68,10 +82,26 @@ optimizer = EchoBackprop(
    - White star: Global minimum `[1.0, 1.0]`
    - Color contours: Log-scaled Rosenbrock function values
 
-2. **Loss Curve**
+2. **2D Trajectory Plot**
+   - Shows the complete path with color-coded phases
+   - Blue: Exploration phase
+   - Green: Refinement phase
+   - Contour lines: Rosenbrock function landscape
+
+3. **Optimization History**
+   - Top: Loss value evolution
+   - Bottom: Gradient norm progression
+   - Vertical lines: Phase transition points
+
+4. **Loss Curve**
    - Y-axis: Loss value (log scale)
    - X-axis: Iteration number
    - Shows the convergence behavior over time
+
+5. **Final Path Overview**
+   - Complete trajectory visualization
+   - Contour plot of the Rosenbrock function
+   - Start and end points clearly marked
 
 ## 🚀 Usage
 
