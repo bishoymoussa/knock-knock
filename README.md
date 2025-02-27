@@ -1,8 +1,8 @@
-# Echo Backpropagation Optimizer
+# Knock-Knock: A Bio-inspired Echo Optimization Algorithm
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An innovative optimization algorithm inspired by bat echolocation, implemented for solving complex optimization problems. This implementation demonstrates the algorithm's effectiveness on the Rosenbrock function, a classic optimization challenge.
+Knock-Knock is an innovative optimization algorithm inspired by bat echolocation, designed for navigating complex loss landscapes. Just as bats emit sound waves and analyze their echoes to navigate, Knock-Knock sends out "echo signals" in multiple directions to probe the loss landscape, creating an intelligent optimization strategy. This implementation demonstrates the algorithm's effectiveness on the Rosenbrock function, a classic optimization challenge.
 
 ## 🎬 Optimization Visualizations
 
@@ -27,7 +27,7 @@ An innovative optimization algorithm inspired by bat echolocation, implemented f
 
 ## 🎯 Algorithm Overview
 
-The Echo Backpropagation optimizer uses a nature-inspired approach that mimics how bats use echolocation to navigate and hunt. The algorithm:
+The Knock-Knock optimizer uses a nature-inspired approach that mimics how bats use echolocation to navigate and hunt. The algorithm:
 - Emits "echo signals" in multiple directions
 - Analyzes the loss landscape through echo responses
 - Adaptively adjusts its exploration range
