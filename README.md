@@ -1,5 +1,7 @@
 # Echo Backpropagation Optimizer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 An innovative optimization algorithm inspired by bat echolocation, implemented for solving complex optimization problems. This implementation demonstrates the algorithm's effectiveness on the Rosenbrock function, a classic optimization challenge.
 
 ## 🎬 Optimization Visualizations
@@ -121,3 +123,7 @@ for i in range(max_iterations):
 - Adaptive step size helps in fine-tuning the final convergence
 - The combination of echo-based exploration and momentum provides efficient optimization
 - Final result achieves 90% accuracy in reaching the global minimum
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
